@@ -147,9 +147,7 @@ IsMultiLangual = false
 
     topText = []
     bottomText = [
-      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
-      "Hello 4s3ti theme by <a href=\"https://github.com/4s3ti\">4s3ti</a>"
-    ]
+      "Powered by <a href=\"http://gohugo.io\">Hugo</a>"]
 
   # Colors for favicons
   #
