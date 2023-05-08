@@ -33,14 +33,14 @@ disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
 IsMultiLangual = false
-#defaultContentLanguage = pt-pt
+
 
 
 [permalinks]
   posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = "Jane Doe"
+  name = "N19ht"
 
 [blackfriday]
   hrefTargetBlank = true
@@ -73,7 +73,7 @@ IsMultiLangual = false
   # backgroundImage = "assets/images/background.jpg"
   
   # Adds a dark overlay over the background
-  # backgroundEffects = false
+  #backgroundEffects = false
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   #
@@ -106,10 +106,10 @@ IsMultiLangual = false
   #
   # Enables the global language menu.
   #
-  enableGlobalLanguageMenu = true
+  enableGlobalLanguageMenu = false
 
   # Shows Posts on the front/Home page
-  showPosts = true
+  showPosts = false
 
   # Shows the ReadMore button in text instead
   ReadmoreText = true
@@ -123,7 +123,7 @@ IsMultiLangual = false
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
   #
-  customCSS = []
+  customCSS = ["css/custom.css"]
   customJS  = []
 
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
@@ -134,7 +134,7 @@ IsMultiLangual = false
   # If you want, you can easily override the default footer with your own content. 
   #
   [params.fontAwesome]
- #   KitURL = https://kit.fontawesome.com/KitID.js
+    KitURL = 'https://kit.fontawesome.com/7d573a83b0.js'
 
   [params.footer]
     trademark = true
@@ -146,15 +146,15 @@ IsMultiLangual = false
     socialIcons = true
 
     topText = []
-    bottomText = [
-      "Powered by <a href=\"http://gohugo.io\">Hugo</a>"]
+    #bottomText = [
+    # "Powered by <a href=\"http://gohugo.io\">Hugo</a>"]
 
   # Colors for favicons
   #
   [params.favicon.color]
-    mask = "#1b1c1d"
-    msapplication = "#1b1c1d"
-    theme = "#1b1c1d"
+    mask = "#0CC0DF"
+    msapplication = "#0CC0DF"
+    theme = "#0CC0DF"
 
   [params.logo]
     logoMark     = ">"
@@ -163,7 +163,7 @@ IsMultiLangual = false
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
     # Set to a valid CSS color to change the cursor in the logo.
-    # logoCursorColor    = "#67a2c9"
+    logoCursorColor    = "#0CC0DF"
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
     # logoCursorAnimate  = "2s"
 
@@ -178,45 +178,48 @@ IsMultiLangual = false
   # [params.commento]
   #   url = ""
 
-  # Uncomment this if you want a portrait on your start page
+  #Uncomment this if you want a portrait on your start page
   #
-  # [params.portrait]
-  #   path     = "/img/image.jpg"
-  #   alt      = "Portrait"
-  #   maxWidth = "50px"
+   [params.portrait]
+     path     = "images/portrait.jpg"
+     alt      = "Portrait"
+     maxWidth = "1550px"
 
   # Social icons
   [[params.social]]
     name = "twitter"
-    url  = "https://twitter.com/"
+    url  = "https://twitter.com/iamandrewmeier"
+    #icon = twitter
 
-  [[params.social]]
-    name = "email"
-    url  = "mailto:nobody@example.com"
- #   icon = fa-solid fa-envelope
+#  [[params.social]]
+#    name = "email"
+#    url  = "mailto:nobody@example.com"
+#   icon = fa-solid fa-envelope
 
   [[params.social]]
     name = "github"
-    url  = "https://github.com/"
+    url  = "https://github.com/n19hty"
 
   [[params.social]]
     name = "linkedin"
-    url  = "https://www.linkedin.com/"
+    url  = "https://www.linkedin.com/in/theandrewmeier"
 
-  [[params.social]]
-    name = "stackoverflow"
-    url  = "https://www.stackoverflow.com/"
+#  [[params.social]]
+#    name = "stackoverflow"
+#    url  = "https://www.stackoverflow.com/"
 
 [languages]
   [languages.en]
     subtitle  = "Hello 4s3ti Theme"
     weight    = 1
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    copyright = ""
+    #copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
   [languages.fr]
     subtitle  = "Hello 4s3ti Theme"
     weight    = 2
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    copyright = ""
+    #copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 [menu]
   [[menu.main]]
@@ -227,12 +230,12 @@ IsMultiLangual = false
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
-  [[menu.main]]
-    identifier = "tools"
-    name       = "Tools"
-    url        = "#"
-  [[menu.main]]
-    identifier = "sometool"
-    name       = "SomeTool"
-    url        = "#"
-    parent     = "tools"
+#  [[menu.main]]
+#    identifier = "nist"
+#    name       = "NIST Framework"
+#    url        = "#"
+#  [[menu.main]]
+#    identifier = "identify"
+#    name       = "Identify"
+#    url        = "#"
+#    parent     = "nist"
