@@ -10,10 +10,5 @@ hidelanguage = true
 
 ### This is just my starter blog and website to highlight my work, progress, and to learn you something.
  #### Follow me:
-- https://github.com/russross/blackfriday
-- https://github.com/alecthomas/chroma
-- https://github.com/muesli/smartcrop
-- https://github.com/spf13/cobra
-- https://github.com/spf13/viper
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+- https://twitter.com/iamandrewmeier
+- https://www.linkedin.com/in/theandrewmeier
